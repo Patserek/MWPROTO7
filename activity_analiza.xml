@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Analiza">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="401dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3">
+
+
+        <TextView
+            android:id="@+id/HB1"
+            android:layout_width="213dp"
+            android:layout_height="match_parent"
+            android:text="HB1AC" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="399dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+
+        <TextView
+            android:id="@+id/AVG30"
+            android:layout_width="213dp"
+            android:layout_height="match_parent"
+            android:text="Śreniednia stęzenie glukozy z ostatnich 30 dni " />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="412dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout10">
+
+
+        <TextView
+            android:id="@+id/AVG14"
+            android:layout_width="213dp"
+            android:layout_height="match_parent"
+            android:text="Śreniednia stęzenie glukozy z ostatnich 14 dni " />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout10"
+        android:layout_width="415dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/AVG7"
+            android:layout_width="213dp"
+            android:layout_height="match_parent"
+            android:text="Śreniednia stęzenie glukozy z ostatnich 7 dni " />
+
+        <TextView
+            android:id="@+id/TV7"
+            android:layout_width="199dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_toEndOf="@+id/AVG7"
+            android:text="TextView" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
